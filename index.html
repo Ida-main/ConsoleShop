@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Nintendo Store</title>
+</head>
+
+<body>
+    <nav id="nav">
+        <div class="navTop">
+            <div class="navItem">
+                <!-- Insert logo-->
+                <img src="" alt="">
+            </div>
+            <div class="navItem">
+                <!-- 
+                <div class="search">
+                    <input type="text" placeholder="Search..." class="searchInput">
+                    <img src="./img/search.png" width="20" height="20" alt="" class="searchIcon">
+                </div>
+                logo-->
+            </div>
+            <div class="navItem">
+                <span class="limitedOffer"></span>
+            </div>
+            
+        </div>
+        <div class="navBottom">
+            <h3 class="menuItem">SNES</h3>
+            <h3 class="menuItem">N64</h3>
+            <h3 class="menuItem">GameCube</h3>
+            <h3 class="menuItem">Wii</h3>
+            <h3 class="menuItem">Switch</h3>
+        </div>
+    </nav>
+    <div class="slider">
+        <div class="sliderWrapper">
+            <div class="sliderItem">
+                <img src="./img/snes.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">Super</br>Nintendo</br> </h1>
+                <h2 class="sliderPrice">$70</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/64.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">Nintendo</br> 64</br> </h1>
+                <h2 class="sliderPrice">$200</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/cube.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">Game</br>Cube</br></h1>
+                <h2 class="sliderPrice">$50</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/wii.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">Nintendo</br>Wii</br> </h1>
+                <h2 class="sliderPrice">$30</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/switch.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">Nintendo</br> Switch</br> </h1>
+                <h2 class="sliderPrice">$290</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="features">
+        <div class="feature">
+            <img src="./img/shipping1.png" alt="" class="featureIcon">
+            <span class="featureTitle">FREE SHIPPING</span>
+            <span class="featuredDesc">Free worldwide shipping</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="./img/return1.png" alt="">
+            <span class="featureTitle">30 DAYS RETURN</span>
+            <span class="featureDesc">No question return and easy refund in 14 days.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="./img/image1.png" alt="">
+            <span class="featureTitle">GIFT CARDS</span>
+            <span class="featureDesc">Buy gift cards and use coupon codes easily.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="./img/contact1.png" alt="">
+            <span class="featureTitle">CONTACT US!</span>
+            <span class="featureDesc">Keep in touch via email and support system.</span>
+        </div>
+    </div>
+    <div class="product" id="product">
+        <img src="./img/switch.png" alt="" class="productImg">
+        <div class="productDetails">
+            <h1 class="productTitle">Swicth</h1>
+            <h2 class="productPrice">$290</h2>
+            <p class="productDesc"> Three modes in one!
+            NEW Nintendo switcg is designed to fit your life, 
+            transforming from home console to portable in a snap!
+            Fits everyone's lifestyle no matter age!
+            </p>
+           
+            
+            <button class="productButton">BUY NOW!</button>
+        </div>
+        <div class="payment">
+            <h1 class="payTitle">Personal Information</h1>
+            <label>Name and Surname</label>
+            <input type="text" placeholder="John Doe" class="payInput">
+            <label>Phone Number</label>
+            <input type="text" placeholder="+1 234 5678" class="payInput">
+            <label>Address</label>
+            <input type="text" placeholder="Elton St 21 22-145" class="payInput">
+            <h1 class="payTitle">Card Information</h1>
+            <div class="cardIcons">
+                <img src="./img/visa.png" width="40" alt="" class="cardIcon">
+                <img src="./img/master.png" alt="" width="40" class="cardIcon">
+            </div>
+            <input type="password" class="payInput" placeholder="Card Number">
+            <div class="cardInfo">
+                <input type="text" placeholder="mm" class="payInput sm">
+                <input type="text" placeholder="yyyy" class="payInput sm">
+                <input type="text" placeholder="cvv" class="payInput sm">
+            </div>
+            <button class="payButton">Checkout!</button>
+            <span class="close">X</span>
+        </div>
+    </div>
+    <div class="gallery">
+        <div class="galleryItem">
+            <h1 class="galleryTitle">Start your adventure!</h1>
+            <img src="https://cdn.vox-cdn.com/thumbor/n06_OQy-j8qvocPQJxrG5OS-Ky4=/0x0:3840x2160/1400x1400/filters:focal(1613x773:2227x1387):format(jpeg)/cdn.vox-cdn.com/uploads/chorus_image/image/54566315/Nintendo_Switch_2.0.0.jpg"
+                alt="" class="galleryImg">
+        </div>
+        <div class="galleryItem">
+            <img src="https://hotpopjunk.files.wordpress.com/2013/02/retro-nes-ad.jpg?w=584"
+                alt="" class="galleryImg">
+            <h1 class="galleryTitle">Re-play all your favorites!</h1>
+        </div>
+        <div class="galleryItem">
+            <h1 class="galleryTitle">Play with your loved ones!</h1>
+            <img src="https://discover.centurylink.com/wp-content/uploads/2021/07/shutterstock_1644207196-1024x683.jpg"
+                alt="" class="galleryImg">
+        </div>
+    </div>
+    <div class="newSeason">
+        <div class="nsItem">
+            <img src="https://i.pinimg.com/originals/28/fe/f9/28fef9ece742153ea400bcae2f1f9d90.jpg"
+                alt="" class="nsImg">
+        </div>
+        <div class="nsItem">
+            <h3 class="nsTitleSm">Oldies But Goldies</h3>
+            <h1 class="nsTitle">Back in stock!</h1>
+            <h1 class="nsTitle"></h1>
+            <a href="#nav">
+                <button class="nsButton">CHOOSE YOUR CONTROLLER</button>
+            </a>
+        </div>
+        <div class="nsItem">
+            <img src="https://i.pinimg.com/originals/28/fe/f9/28fef9ece742153ea400bcae2f1f9d90.jpg"
+                alt="" class="nsImg">
+        </div>
+    </div>
+    <footer>
+        <div class="footerLeft">
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">About Us</h1>
+                <ul class="fList">
+                    <li class="fListItem">Company</li>
+                    <li class="fListItem">Contact</li>
+                    <li class="fListItem">Careers</li>
+                    <li class="fListItem">Affiliates</li>
+                    <li class="fListItem">Stores</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">Useful Links</h1>
+                <ul class="fList">
+                    <li class="fListItem">Support</li>
+                    <li class="fListItem">Refund</li>
+                    <li class="fListItem">FAQ</li>
+                    <li class="fListItem">Feedback</li>
+                    <li class="fListItem">Stories</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">Products</h1>
+                <ul class="fList">
+                    <li class="fListItem">SNES</li>
+                    <li class="fListItem">N64</li>
+                    <li class="fListItem">GameCube</li>
+                    <li class="fListItem">Wii</li>
+                    <li class="fListItem">Switch</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerRight">
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Subscribe to our newsletter</h1>
+                <div class="fMail">
+                    <input type="text" placeholder="your@email.com" class="fInput">
+                    <button class="fButton">Join!</button>
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Follow Us</h1>
+                <div class="fIcons">
+                    <img src="./img/facebook.png" alt="" class="fIcon">
+                    <img src="./img/twitter.png" alt="" class="fIcon">
+                    <img src="./img/instagram.png" alt="" class="fIcon">
+                    <img src="./img/whatsapp.png" alt="" class="fIcon">
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <span class="copyright">@Ida-Main 2022</span>
+            </div>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
+
